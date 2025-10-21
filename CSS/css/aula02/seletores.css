@@ -1,0 +1,17 @@
+/* para invocar um id do HTML dentro do CSS colocamos # antes do nome do ID, como  no  exemplo abaixo em que selecionamos apenas o paragrafo que tem o ID #assinutura*/
+
+#assinatura{
+    background-color: blueviolet;
+}
+    p{
+background-color: brown;
+
+    }
+    
+    #verde{
+        background-color: rgb(3, 126, 3);
+    }
+
+    #rosa{
+        background-color: pink;
+    }
