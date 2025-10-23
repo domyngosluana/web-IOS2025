@@ -1,0 +1,15 @@
+h1{
+/* border-wdth determina o tamnho da borda */
+    border-width: 10px;
+    /* border-color determina a cor da borda  */
+    background-color: blueviolet;
+    /* border-style determina o formato da borda */
+    border-style: double;
+}
+
+p{
+    /* podemos criar bordas de maneiro abreviada utilizando apenas o propriedade border. border recebe 3 valores, sendo eles:tamanho (5px)
+    tipo (double)
+    cor (blueviolet) */
+    border: 10px double blueviolet;
+}

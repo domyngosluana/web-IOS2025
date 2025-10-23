@@ -1,0 +1,20 @@
+/* reset basico do CSS */
+
+*{
+padding: 0%;
+margin: 0%;
+}
+
+p{
+    background-color: brown;
+
+}
+/*  Todo paragrafo que estiver dentro de um <li> recebera o design abaixo */
+li p{
+background-color: yellow;
+
+}
+/* Todo paragrafo que estiver dentro de um <li> que esta dentro do <ol> que recebera o design */
+ol li p{
+    background-color: blueviolet;
+}

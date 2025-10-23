@@ -1,0 +1,32 @@
+h1 {
+    background-color: rgb(250, 250, 250);
+    border: 5px solid pink;
+    /* margin é um espaço de fora do elemento, e é o que faz com esse elemento se afaste dos outros.
+uma margin 0 quer dizer que o h1 vai grudar nos outros elementos. */
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.quadrado {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 112, 136);
+    background-image: url(https://artpoin.com/wp-content/uploads/2021/06/gat1-724x1024.png);
+    background-size: 80%;
+    border: 10px solid palevioletred;
+    /* podemos colocar margem em apenas um lado especifico utilizando os comandos de margin:
+margin-top (margem em cima)
+margin-right (margem á direita)
+margin-bottom (margem a baixo)
+margin-left (margem a esquerda)*/
+
+    margin: 50px;
+    margin-left: 30px;
+}
+
+#segunda {
+    padding: 25px;
+    padding-right: 70px;
+}
+/* PADDING:é o espaço interno que separa o conteudo da borda */
+/* MARGIN: é o espaço externo que separa os conteudos(caixas) */
