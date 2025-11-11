@@ -1,0 +1,11 @@
+button{
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 1;
+}
+
+button:hover{
+    color: aliceblue;
+}
+
+#carouseel-i

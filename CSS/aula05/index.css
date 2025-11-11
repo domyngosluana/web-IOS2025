@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+#container{
+    background-color: aqua;
+    display: flex;
+    /* Justify alinha  */
+justify-content: center;
+}
+.quadrado{
+
+    height: 200px;
+    width: 200px;
+    background-color: rgb(197, 71, 71);
+    border: 1px rgb(0, 0, 255);
+}

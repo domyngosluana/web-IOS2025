@@ -1,0 +1,50 @@
+:root {
+    --corPrincipal: blue
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+
+}
+
+.quadrado:hover {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(192, 246, 255);
+}
+
+.quadrado:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 192, 255);
+
+}
+a:link {
+    color: blue;
+    font-size: 40px;
+
+}
+
+h1 {
+    color: var(--corPrincipal);
+}
+
+span {
+    background-color: var(--corPrincipal);
+}
+p:first-child{
+    color: brown;
+}
+
+
+#shrek:first-letter{
+    font-size: 50px;
+}
